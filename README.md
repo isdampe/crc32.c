@@ -7,7 +7,7 @@ uint32_t crc32_checksum(uint8_t *data, size_t length);
 ```
 
 which returns a CRC32 checksum of a given array of bytes, using a pre-computed
-lookup table. 1,032 bytes of memory is required for this procedure.
+lookup table. 1,028 bytes of memory is required for this procedure.
 
 ## Example usage
 
